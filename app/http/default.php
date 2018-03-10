@@ -1,6 +1,10 @@
 <?php
 
-use Slim\Http\Request;
-use Slim\Http\Response;
+use App\Controller\AuthController;
+use App\Controller\HomeController;
 
-$app->get('/', \App\Controller\HomeController::class . ':home')->add(new \App\Middleware\AuthMiddleware());
+$app->get('/', HomeController::class . ':home');
+$app->get('/signup', AuthController::class . ':signupPage');
+$app->post('/signup', AuthController::class . ':signup');
+$app->get('/login', AuthController::class . ':loginPage');
+$app->post('/login', AuthController::class . ':login');
