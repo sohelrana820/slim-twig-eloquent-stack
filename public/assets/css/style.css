@@ -41,11 +41,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Oswald', sans-serif;
 }
 
-.heading-2{
+.heading-2 {
     margin-bottom: 30px;
 }
 
-.heading-2 h4{
+.heading-2 h4 {
     margin-bottom: 10px;
     text-transform: uppercase;
     font-weight: 500;
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding: 0 30px;
 }
 
-.pad-minus-lr-15{
+.pad-minus-lr-15 {
     padding-top: 50px;
 }
 
@@ -80,21 +80,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: 40px;
 }
 
-.mrg-l-20{
+.mrg-l-20 {
     margin-left: 20px;
 }
 
-.mrg-r-20{
+.mrg-r-20 {
     margin-right: 20px;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
 .form-inline .btn,
-.form-inline .btn:active
-{
+.form-inline .btn:active {
     padding: 0 17px;
     font-size: 15px;
     background: none;
@@ -102,20 +101,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #212121;
 }
 
-.form-inline .btn-2{
+.form-inline .btn-2 {
     color: #fff;
 }
 
-.form-inline .btn:hover{
+.form-inline .btn:hover {
     color: #ff002b;
 }
 
-.form-inline .btn:hover{
+.form-inline .btn:hover {
     background: none;
     border: solid 1px transparent;
 }
 
-.btn{
+.btn {
     font-family: 'Oswald', sans-serif;
     border-radius: 3px;
 }
@@ -123,7 +122,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .btn-black {
     color: #fff;
     background-color: #3a3a3a;
-    border-color:#3a3a3a;
+    border-color: #3a3a3a;
 }
 
 .btn-black:hover {
@@ -199,7 +198,6 @@ input[type=checkbox]:checked + label:before {
     cursor: pointer;
 }
 
-
 .form-check label {
     display: inline-block;
     position: relative;
@@ -245,7 +243,7 @@ input[type=checkbox]:checked + label:before {
     border-color: #ff002b;
 }
 
-.form-group .form-check{
+.form-group .form-check {
     margin-left: 20px;
 }
 
@@ -299,8 +297,6 @@ input[type=checkbox]:checked + label:before {
     font-weight: 500;
 }
 
-
-
 .option-panel .color-plate {
     width: 24px;
     height: 24px;
@@ -310,51 +306,51 @@ input[type=checkbox]:checked + label:before {
     cursor: pointer;
 }
 
-.default-plate{
+.default-plate {
     background: #ff002b;
 }
 
-.blue-plate{
+.blue-plate {
     background: #2048bb;
 }
 
-.yellow-plate{
+.yellow-plate {
     background: #ffb400;
 }
 
-.green-light-plate{
+.green-light-plate {
     background: #1abc9c;
 }
 
-.red-plate{
+.red-plate {
     background: #c31c1c;
 }
 
-.orange-plate{
+.orange-plate {
     background: #F34B0A;
 }
 
-.yellow-light-plate{
+.yellow-light-plate {
     background: #eae328;
 }
 
-.green-light-2-plate{
+.green-light-2-plate {
     background: #0dcdbd;
 }
 
-.olive-plate{
+.olive-plate {
     background: #b3c211;
 }
 
-.purple-plate{
+.purple-plate {
     background: #8e44ad;
 }
 
-.blue-light-plate{
+.blue-light-plate {
     background: #3c9dff;
 }
 
-.brown-plate{
+.brown-plate {
     background: #A14C10;
 }
 
@@ -373,6 +369,7 @@ input[type=checkbox]:checked + label:before {
     border-bottom-left-radius: 5px;
     cursor: pointer;
 }
+
 /** Option Panel **/
 
 /** OVERVIEW BGI **/
@@ -390,7 +387,7 @@ input[type=checkbox]:checked + label:before {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.overview .btn-border{
+.overview .btn-border {
     color: #ff002b;
     border: solid 2px #ff002b;
     padding: 7px 12px !important;
@@ -401,7 +398,7 @@ input[type=checkbox]:checked + label:before {
     font-weight: 600;
 }
 
-.overview .btn-border:hover{
+.overview .btn-border:hover {
     border: solid 2px #bd0221;
     background: #bd0221;
 }
@@ -444,15 +441,15 @@ input[type=checkbox]:checked + label:before {
 }
 
 /** BTN COLOR **/
-.btn-color{
+.btn-color {
     background: #ff002b;
 }
 
-.btn-color:hover{
+.btn-color:hover {
     background: #bd0221;
 }
 
-.btn-border{
+.btn-border {
     color: #ff002b;
     border: solid 1px #ff002b;
 }
@@ -472,13 +469,13 @@ input[type=checkbox]:checked + label:before {
     border: solid 2px #fff;
 }
 
-.btn-border:hover{
+.btn-border:hover {
     color: #fff;
     border: solid 1px #bd0221;
     background: #bd0221;
 }
 
-.btn-black{
+.btn-black {
     background: #000;
     border: solid 2px #000;
     color: #fff;
@@ -534,15 +531,15 @@ input[type=checkbox]:checked + label:before {
     background: #4867aa;
 }
 
-.facebook-bg:hover{
+.facebook-bg:hover {
     background: #3a5795;
 }
 
-.twitter-bg{
+.twitter-bg {
     background: #56d7fe;
 }
 
-.twitter-bg:hover{
+.twitter-bg:hover {
     background: #2abced;
 }
 
@@ -550,7 +547,7 @@ input[type=checkbox]:checked + label:before {
     background: #dc4e41;
 }
 
-.google-bg:hover{
+.google-bg:hover {
     background: #c83a2e;
 }
 
@@ -570,15 +567,12 @@ input[type=checkbox]:checked + label:before {
     background: #036497;
 }
 
-
-
-
 /** Content form box STARTED **/
-.content-box{
+.content-box {
     background: #fff;
 }
 
-.content-form-box .form-control{
+.content-form-box .form-control {
     width: 100%;
     padding: 10px 20px;
     font-size: 13px;
@@ -597,11 +591,11 @@ input[type=checkbox]:checked + label:before {
     box-shadow: none;
 }
 
-.content-form-box .form-group{
+.content-form-box .form-group {
     margin-bottom: 25px;
 }
 
-.content-form-box .btn{
+.content-form-box .btn {
     cursor: pointer;
     padding: 11px 20px 10px;
     letter-spacing: 1px;
@@ -618,24 +612,24 @@ input[type=checkbox]:checked + label:before {
     color: #515365;
 }
 
-.login-header h4{
+.login-header h4 {
     font-size: 22px;
     color: #515365;
 }
 
-.login-header img{
+.login-header img {
     height: 30px;
 }
 
-.form-check{
+.form-check {
     font-size: 13px;
 }
 
-.form-check a{
+.form-check a {
     color: #ff002b;
 }
 
-.form-check a:hover{
+.form-check a:hover {
     color: #bd0221;
 }
 
@@ -647,21 +641,21 @@ input[type=checkbox]:checked + label:before {
     vertical-align: middle;
 }
 
-.content-form-box p{
+.content-form-box p {
     font-size: 13px;
     color: #80828e;
 }
 
-.form-check-label{
+.form-check-label {
     font-size: 13px;
     color: #80828e;
 }
 
-.login-footer img{
+.login-footer img {
     height: 20px;
 }
 
-.login-footer{
+.login-footer {
     padding: 20px;
     border-top: solid 1px #ececec;
     width: 100%;
@@ -670,7 +664,7 @@ input[type=checkbox]:checked + label:before {
     left: 0;
 }
 
-.content-form-box.register-box .login-footer{
+.content-form-box.register-box .login-footer {
     width: 100%;
     position: inherit;
 }
@@ -685,16 +679,16 @@ input[type=checkbox]:checked + label:before {
     bottom: 0;
 }
 
-.login-footer p{
+.login-footer p {
     font-size: 13px;
     margin: 0;
 }
 
-.login-footer p a{
+.login-footer p a {
     color: #ff002b;
 }
 
-.login-footer p a:hover{
+.login-footer p a:hover {
     color: #bd0221;
 }
 
@@ -706,19 +700,19 @@ input[type=checkbox]:checked + label:before {
     max-width: 600px;
 }
 
-.login-info h3{
+.login-info h3 {
     color: #fff;
 }
 
-.login-info p{
+.login-info p {
     color: #fff;
 }
 
-.register-box{
+.register-box {
     max-width: 450px;
 }
 
-.register-info{
+.register-info {
     position: absolute;
     top: 30%;
     left: 0;
@@ -726,19 +720,19 @@ input[type=checkbox]:checked + label:before {
     text-align: right;
 }
 
-.register-info img{
+.register-info img {
     height: 50px;
     margin-bottom: 40px;
 }
 
-.register-info p{
+.register-info p {
     color: #fff;
     font-size: 19px;
     line-height: 30px;
     font-weight: 300;
 }
 
-.forgot-box{
+.forgot-box {
     max-width: 420px;
     border-radius: 8px;
     margin: 120px auto;
@@ -746,10 +740,8 @@ input[type=checkbox]:checked + label:before {
     padding: 50px;
 }
 
-
 .form-group label,
-.checkbox label
-{
+.checkbox label {
     font-size: 12px;
     font-weight: 500;
     color: #37404d;
@@ -757,7 +749,7 @@ input[type=checkbox]:checked + label:before {
 
 /** MEDIA **/
 @media (max-width: 992px) {
-    .navbar-collapse{
+    .navbar-collapse {
         margin: 0px -15px;
         background: #FFF;
     }
@@ -766,7 +758,7 @@ input[type=checkbox]:checked + label:before {
         color: #000;
     }
 
-    .main-header .navbar-expand-lg .navbar-nav .active .nav-link{
+    .main-header .navbar-expand-lg .navbar-nav .active .nav-link {
         color: #ff002b !important;
         background: #f9f9f9;
         border-bottom: 0px;
@@ -791,7 +783,7 @@ input[type=checkbox]:checked + label:before {
         padding: 80px 0 50px;
     }
 
-    .services-info{
+    .services-info {
         margin-bottom: 30px;
     }
 
@@ -831,16 +823,16 @@ input[type=checkbox]:checked + label:before {
         font-size: 35px;
     }
 
-    .testimonial{
+    .testimonial {
         padding: 60px 0 50px;
     }
 
-    .testimonial .testimonial-inner{
+    .testimonial .testimonial-inner {
         margin: 0 auto;
         max-width: 100%;
     }
 
-    .testimonial .testimonial-inner .testimonia-header h1{
+    .testimonial .testimonial-inner .testimonia-header h1 {
         font-size: 30px;
     }
 
@@ -848,7 +840,7 @@ input[type=checkbox]:checked + label:before {
         font-size: 30px;
     }
 
-    .testimonial .testimonial-inner .lead{
+    .testimonial .testimonial-inner .lead {
         margin-bottom: 20px;
         font-size: 16px;
         line-height: 28px;
@@ -858,11 +850,11 @@ input[type=checkbox]:checked + label:before {
         margin: 0 auto 30px;
     }
 
-    .testimonial .testimonia-header h1{
+    .testimonial .testimonia-header h1 {
         font-size: 30px;
     }
 
-    .pricing.mrg-btn-60{
+    .pricing.mrg-btn-60 {
         margin-bottom: 70px;
     }
 
@@ -883,7 +875,7 @@ input[type=checkbox]:checked + label:before {
         margin: 5px 0;
     }
 
-    .services-info-2 p{
+    .services-info-2 p {
         margin-bottom: 5px;
     }
 
@@ -895,11 +887,11 @@ input[type=checkbox]:checked + label:before {
         font-size: 13px;
     }
 
-    .car-slider{
+    .car-slider {
         margin-bottom: 40px;
     }
 
-    .big-car img{
+    .big-car img {
         margin-top: 30px;
     }
 
@@ -907,7 +899,7 @@ input[type=checkbox]:checked + label:before {
         height: auto;
     }
 
-    .services-info i{
+    .services-info i {
         font-size: 30px;
         width: 50px;
     }
@@ -920,7 +912,7 @@ input[type=checkbox]:checked + label:before {
         margin-bottom: 20px;
     }
 
-    .pricing-tables .mrg-btn-76{
+    .pricing-tables .mrg-btn-76 {
         margin-bottom: 40px;
     }
 
@@ -932,7 +924,7 @@ input[type=checkbox]:checked + label:before {
         margin-left: 0;
     }
 
-    .more-info{
+    .more-info {
         margin-top: 40px;
     }
 
@@ -940,7 +932,7 @@ input[type=checkbox]:checked + label:before {
         margin-right: 0;
     }
 
-    .car-list-fullwidth .car-box-5 .price-ratings-box{
+    .car-list-fullwidth .car-box-5 .price-ratings-box {
         right: 30px;
     }
 
@@ -1012,7 +1004,6 @@ input[type=checkbox]:checked + label:before {
         margin-bottom: 10px;
     }
 
-
     .banner .banner-opt .banner-slider-inner h1 {
         font-size: 32px;
     }
@@ -1020,7 +1011,6 @@ input[type=checkbox]:checked + label:before {
     .banner .banner-opt .banner-slider-inner p {
         font-size: 14px;
     }
-
 
     .banner .banner-slider-inner p {
         color: #fff;
@@ -1039,19 +1029,19 @@ input[type=checkbox]:checked + label:before {
         font-size: 35px;
     }
 
-    .sub-banner{
+    .sub-banner {
         height: 400px;
     }
 
-    .shop-info.mrg-l-20{
+    .shop-info.mrg-l-20 {
         margin-left: 0;
     }
 
-    .shop-info{
+    .shop-info {
         margin-top: 40px;
     }
 
-    .media-pad-top-50{
+    .media-pad-top-50 {
         padding-top: 50px;
     }
 
@@ -1059,7 +1049,7 @@ input[type=checkbox]:checked + label:before {
         padding: 30px 40px;
     }
 
-    .coming-soon-inner .coming-form{
+    .coming-soon-inner .coming-form {
         max-width: 65%;
     }
 
@@ -1094,12 +1084,11 @@ input[type=checkbox]:checked + label:before {
         padding: 10px 20px 9px;
     }
 
-
-    .shop-single .widget.shop-info{
+    .shop-single .widget.shop-info {
         margin-bottom: 40px;
     }
 
-    .cmn-pad-t{
+    .cmn-pad-t {
         padding-top: 40px;
     }
 
@@ -1157,7 +1146,7 @@ input[type=checkbox]:checked + label:before {
         font-size: 30px;
     }
 
-    .overview .big-img{
+    .overview .big-img {
         height: auto;
     }
 
@@ -1169,7 +1158,7 @@ input[type=checkbox]:checked + label:before {
         top: 0;
     }
 
-    .testimonial .testimonial-inner .testimonia-header h1{
+    .testimonial .testimonial-inner .testimonia-header h1 {
         font-size: 30px;
     }
 
@@ -1177,7 +1166,7 @@ input[type=checkbox]:checked + label:before {
         font-size: 30px;
     }
 
-    .testimonial-2 .testimonial-inner{
+    .testimonial-2 .testimonial-inner {
         text-align: center;
     }
 
@@ -1185,7 +1174,7 @@ input[type=checkbox]:checked + label:before {
         margin: 0 auto 30px;
     }
 
-    .testimonial-2 .avatar{
+    .testimonial-2 .avatar {
         max-width: 110px;
         margin: 0 auto 20px;
     }
@@ -1195,7 +1184,7 @@ input[type=checkbox]:checked + label:before {
         line-height: 28px;
     }
 
-    .contact-1 .contact-info{
+    .contact-1 .contact-info {
         margin-top: 30px;
     }
 
@@ -1238,7 +1227,7 @@ input[type=checkbox]:checked + label:before {
         margin: 10px 0;
     }
 
-    .services-info-2 p{
+    .services-info-2 p {
         margin-bottom: 10px;
     }
 
@@ -1254,7 +1243,7 @@ input[type=checkbox]:checked + label:before {
         padding: 30px;
     }
 
-    .services-info-4 .btn{
+    .services-info-4 .btn {
         margin-bottom: 10px;
     }
 
@@ -1262,7 +1251,7 @@ input[type=checkbox]:checked + label:before {
         margin: 0;
     }
 
-    .comment .comment-content{
+    .comment .comment-content {
         margin-left: 80px;
     }
 
@@ -1271,11 +1260,11 @@ input[type=checkbox]:checked + label:before {
         text-align: left;
     }
 
-    .car-box ul li{
+    .car-box ul li {
         font-size: 13px;
     }
 
-    .pricing-tables .mrg-btn-76{
+    .pricing-tables .mrg-btn-76 {
         margin-bottom: 30px;
     }
 
@@ -1294,7 +1283,7 @@ input[type=checkbox]:checked + label:before {
         right: 15px;
     }
 
-    .car-list-fullwidth .car-box-5 .price-ratings-box{
+    .car-list-fullwidth .car-box-5 .price-ratings-box {
         right: 15px;
     }
 
@@ -1321,7 +1310,6 @@ input[type=checkbox]:checked + label:before {
         max-width: 80%;
     }
 
-
     .banner .banner-opt .banner-slider-inner h1 {
         font-size: 20px;
     }
@@ -1347,7 +1335,7 @@ input[type=checkbox]:checked + label:before {
         font-size: 16px;
     }
 
-    .sub-banner{
+    .sub-banner {
         height: 300px;
     }
 
@@ -1391,7 +1379,7 @@ input[type=checkbox]:checked + label:before {
         font-size: 13px;
     }
 
-    .coming-soon-inner .coming-form{
+    .coming-soon-inner .coming-form {
         max-width: 85%;
     }
 
@@ -1424,7 +1412,7 @@ input[type=checkbox]:checked + label:before {
         margin-bottom: 40px;
     }
 
-    .register-box{
+    .register-box {
         margin: auto;
     }
 
@@ -1438,18 +1426,18 @@ input[type=checkbox]:checked + label:before {
         max-width: 450px;
     }
 
-    .content-form-box.register-box{
+    .content-form-box.register-box {
         margin: 70px auto 0;
     }
 
-    .login-footer{
+    .login-footer {
         padding: 20px 15px;
         position: inherit;
         left: 0;
         bottom: 0;
     }
 
-    .forgot-box{
+    .forgot-box {
         padding: 30px;
     }
 
@@ -1468,7 +1456,7 @@ input[type=checkbox]:checked + label:before {
         font-size: 11px;
     }
 
-    .services-text .btn{
+    .services-text .btn {
         margin-bottom: 10px;
     }
 
@@ -1570,7 +1558,6 @@ input[type=checkbox]:checked + label:before {
         font-size: 24px;
     }
 
-
     .banner .banner-opt .banner-slider-inner h1 {
         font-size: 20px;
     }
@@ -1600,11 +1587,11 @@ input[type=checkbox]:checked + label:before {
         background: transparent;
     }
 
-    .media-pad-top-50{
+    .media-pad-top-50 {
         padding-top: 50px;
     }
 
-    .carousel-inner img{
+    .carousel-inner img {
         width: 100%;
     }
 
@@ -1614,11 +1601,11 @@ input[type=checkbox]:checked + label:before {
         background: transparent;
     }
 
-    .sidebar{
+    .sidebar {
         background: transparent;
     }
 
-    .sidebar-title{
+    .sidebar-title {
         margin-bottom: 20px;
         font-size: 16px;
     }
@@ -1632,7 +1619,7 @@ input[type=checkbox]:checked + label:before {
         width: 100%;
     }
 
-    .helping-center{
+    .helping-center {
         background: rgba(0, 0, 0, 0.04) url(../img/car-27.jpg) top left repeat;
         background-size: cover;
         background-position: center center;
