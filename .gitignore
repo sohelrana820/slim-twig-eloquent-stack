@@ -6,3 +6,4 @@ vendor/*
 build/*
 config.php
 phpunit.xml
+build.xml
